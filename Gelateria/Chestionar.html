@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@100&family=Pacifico&family=Poppins:wght@100&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Chestionar</title>
+  </head>
+  <body>
+    <div class="meniu">
+      <nav>
+        <ul>
+          <li><a href="Acasa.html">Acasa</a></li>
+          <li><a href="Produse.html">Produse</a></li>
+          <li><a href="Chestionar.html">Chestionar</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1>Impreuna, imbunatatim <br>experienta Gelateria</h1>
+    <form action="gelateria.php" method="post">
+      <fieldset>
+        <legend>Informatii personale</legend>
+        Numele tau<br>
+        <input type="text" name="name"><br>
+        Adresa email<br>
+        <input type="email" name="email" required placeholder="Introdu adresa de email"<br>
+      </fieldset><br>
+      <fieldset>
+        <legend>Experienta ta cu Gelateria</legend></br>
+        <textarea cols="20" rows="5">Scrie cateva cuvinte despre experienta cu Gelateria</textarea><br><br>
+
+        Ai recomanda si altora Gelateria?
+        <br>
+        <input type="radio" name="radio" value="r1">Da
+        <br>
+        <input type="radio" name="radio" value="r1">Nu<br><br>
+
+        Care dintre produsele Gelateria le-ai prefera?<br>
+        <input type="checkbox" name="checkbox" value="ch1">Inghetata afine<br>
+        <input type="checkbox" name="checkbox" value="ch2">Ingehetata cacao<br>
+        <input type="checkbox" name="checkbox" value="ch3">Inghetata cafea<br>
+        <input type="checkbox" name="checkbox" value="ch4">Inghetata capsuni<br>
+        <input type="checkbox" name="checkbox" value="ch5">Inghetata caramel<br>
+        <input type="checkbox" name="checkbox" value="ch6">Inghetata fistic<br>
+        <input type="checkbox" name="checkbox" value="ch7">Inghetata menta<br>
+        <input type="checkbox" name="checkbox" value="ch8">Inghetata pepene<br>
+        <input type="checkbox" name="checkbox" value="ch9">Inghetata stracciaella<br>
+        <input type="checkbox" name="checkbox" value="ch10">Inghetata tiramisu<br>
+        <input type="checkbox" name="checkbox" value="ch11">Inghetata zmeura<br><br>
+        <input class="send" type="submit" value="Trimite">
+      </fieldset>
+    </form>
+  </body>
+</html>
